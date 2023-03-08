@@ -1,6 +1,6 @@
-export function Comp1(){
+export function Comp1(props){
     return(
-        <h1>Register ...</h1>
+       <div> {props.name}</div>
         
     )
 }

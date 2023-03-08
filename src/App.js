@@ -7,15 +7,22 @@ import { Comp4 } from './Comp4';
 
 
 function App() {
+
+
+
+
+
+
+
   return (
       <>
       {/* <Challenge1/> */}
-       <Comp1/>
-      <Comp2/>
+       <Comp1 name=<h1>Register...</h1>/>
+       <Comp2 name2=<input type="Number" placeholder='mobile no...'></input>/>
       <br></br>
-      <Comp3/>
+      <Comp3 name3=<input placeholder='password...'></input>/>
       <br></br>
-      <Comp4/> 
+      <Comp4 name4=<button>submit</button>/> 
        
       </>
   );

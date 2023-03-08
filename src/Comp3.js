@@ -1,6 +1,6 @@
-export function Comp3(){
+export function Comp3(props){
     return(
-        <input placeholder="password ..."></input>
+        <div>{props.name3}</div>
         
         
     )

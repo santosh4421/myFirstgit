@@ -1,7 +1,6 @@
-export function Comp2(){
+export function Comp2(props){
     return(
-        <input type="Number" placeholder="mobile ..."></input>
-        
+      <div> {props.name2}</div>  
         
     )
 }

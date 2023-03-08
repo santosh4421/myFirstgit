@@ -1,6 +1,6 @@
-export function Comp4(){
+export function Comp4(props){
     return(
-        <button>submit</button>
+        <div>{props.name4}</div>
         
         
     )
