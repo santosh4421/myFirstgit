@@ -1,25 +1,18 @@
 import logo from './logo.svg';
 import './App.css';
+import React, { useState } from "react";
+import { Prob1 } from './Prob1';
+import { Prob2 } from './Prob2';
+import { Prob3 } from './Prob3';
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+  return(
+    <div className='App'>
+      <Prob1/>
+      <Prob2/>
+      <Prob3/>
     </div>
-  );
+  )
 }
 
 export default App;
