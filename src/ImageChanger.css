@@ -1,0 +1,19 @@
+.container {
+    display: flex; /* Use flexbox */
+    justify-content: space-between; /* Add equal space between the divs */
+  }
+
+
+
+
+ .image{
+    width: 50%;
+    /* float: left;
+    height: 50%; */
+
+ }
+.button{
+    
+    width:50%
+    
+}
