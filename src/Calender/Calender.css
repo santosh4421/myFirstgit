@@ -1,0 +1,57 @@
+.weekdays {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 5px solid rgb(8, 8, 8);
+    margin-bottom: 10px;
+  }
+  
+  .weekday {
+    font-weight: bold;
+    cursor: pointer;
+  }
+  .weekday:hover{
+    color: white;
+  }
+  
+  .days {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-gap: 10px;
+    background-color:darkgray;
+  
+  }
+  
+  
+  .day {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  .day:hover,
+    .day:focus {
+      box-shadow: 0 0.5em 0.5em -0.4em var(--hover);
+      transform: translateY(-0.25em);
+      color: white;
+    }
+    
+  
+  
+  .empty {
+    background-color: darkgray;
+    
+  }
+  .btn{
+    background-color: black;
+    color: wheat;
+    cursor: pointer;
+  }
+  .btn:hover,
+  .btn:focus {
+    box-shadow: 0 0.5em 0.5em -0.4em var(--hover);
+    transform: translateY(-0.25em);
+    color: red;
+  }
+  

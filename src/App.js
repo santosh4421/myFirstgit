@@ -1,13 +1,14 @@
 import logo from './logo.svg';
 import './App.css';
 import { Media } from './Media';
+import Calendar from './Calender/Calender';
 
 function App() {
   return (
    <>
     {/* <Media/> */}
     <div style={{display:"flex",justifyContent:"center",alignItems:"center"}}>
-    <form>
+    {/* <form>
       <input list="option"/>
         <datalist id="option">
             <option>option1</option>
@@ -15,7 +16,8 @@ function App() {
             <option>option3</option>
             <option>option4</option>
         </datalist>
-    </form>
+    </form> */}
+    <Calendar/>
     </div>
     </>
   );
