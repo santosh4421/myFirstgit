@@ -3,6 +3,7 @@ import './App.css';
 import { Media } from './Media';
 import Calendar from './Calender/Calender';
 import PixelToRemConverter from './PixelToREm/PixelToREm';
+import Calculator from './calculator/Calculator';
 
 function App() {
   return (
@@ -19,7 +20,8 @@ function App() {
         </datalist>
     </form> */}
     {/* <Calendar/> */}
-    <PixelToRemConverter/>
+    {/* <PixelToRemConverter/> */}
+    <Calculator/>
     </div>
     </>
   );
